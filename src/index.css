@@ -7,6 +7,22 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+a{
+  text-decoration: none;
+}
+
+body::-webkit-scrollbar {
+  width: 12px;               /* ширина scrollbar */
+}
+body::-webkit-scrollbar-track {
+  background: rgb(0, 0, 0);        /* цвет дорожки */
+}
+body::-webkit-scrollbar-thumb {
+  background-color: blue;    /* цвет плашки */
+  border-radius: 20px;       /* закругления плашки */
+  border: 3px solid rgb(112, 112, 111);  /* padding вокруг плашки */
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

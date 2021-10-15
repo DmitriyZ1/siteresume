@@ -1,0 +1,55 @@
+.port__body {
+    min-height: 670px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    .port__content{
+        width: 95%;
+        min-width: 730px;
+        height: 500px;
+        background: rgba(0, 0, 0, 0.5);
+        
+        overflow: auto;
+        &::-webkit-scrollbar {
+            width: 12px;               /* ширина scrollbar */
+        }
+        &::-webkit-scrollbar-track {
+            background: rgb(0, 0, 0);        /* цвет дорожки */
+          }
+        &::-webkit-scrollbar-thumb {
+            background-color: blue;    /* цвет плашки */
+            border-radius: 20px;       /* закругления плашки */
+            border: 3px solid rgb(112, 112, 111);  /* padding вокруг плашки */
+        }
+        .items__works_p{ 
+            ul{
+                padding-inline-start: 30px;
+                padding-inline-end: 30px;
+                padding-bottom: 5px;
+                .item_p{
+                    display: flex;
+                    text-align: left;
+                    font-size: 18px;
+                    font-weight: 500;
+                    .pic__work_p img{
+                        width: 130px;
+                        height: 110px;
+                    }
+                    .text__work_p{
+                        margin-left: 20px;
+                        opacity: 0.7;
+                        p{
+                            margin: 2px;
+                            font-size: 16px;
+                            color: #fff;
+                        }
+                    }
+                }
+            }
+        }
+            
+        
+    }
+}
+

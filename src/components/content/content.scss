@@ -1,0 +1,80 @@
+.line{
+    position: relative;
+    top: 60px;
+    width: 100%;
+    height: 50px; 
+    background: rgba(255, 255, 255, 0.5);
+    .line__text{
+        text-align: left;
+        font-size: 36px;
+        font-weight: 900;
+        span{
+            position: relative;
+            bottom: 7px;
+        }
+    }
+    .line__decor{
+        position: absolute;
+        width: 100%;
+        
+        height: 10px;
+        bottom: 0;
+    }
+}
+  
+.void{
+    height: 100px;
+    position: relative;
+    .photo{
+        position: absolute;
+        right: 10px;
+        top: 25px;
+        height: 300px;
+        width: 260px;
+        background: white;
+        transform: rotate(11deg); 
+        display: flex;
+        align-items: center;
+        align-content: center; 
+        justify-content: center; 
+        cursor: pointer;
+        z-index: 10;
+    }
+}
+  
+.content{
+    position: relative;
+    .text{
+        position: relative;
+        width: 70%;
+        font-size: 24px;
+        text-align: left;
+        color: #fff;
+        z-index: 11;
+        
+        p::before{
+            content: "L";
+            font-size: 40px;
+            font-weight: 900;
+            color: #6DCED4;
+        }
+    }
+}
+  
+.line_2{
+    width: 100%;
+    height: 50px;
+   
+    margin-top: 80px;
+    .line2__text{
+        text-align: left;
+        font-size: 36px;
+        font-weight: 900;
+        color: #fff;
+        position: relative;
+        bottom: 5px;
+    }
+}
+  
+  
+  

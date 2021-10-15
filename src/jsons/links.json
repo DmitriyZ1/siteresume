@@ -1,0 +1,61 @@
+{
+    "contactsList":[
+        {
+            "id":"01",
+            "tittle":"zavoronk@mail.ru",
+            "link":"mailto:zavoronk@mail.ru",
+            "pic":"mail.png"
+        },
+        {
+            "id":"02",
+            "tittle":"+7 967 098-48-98",
+            "link":"tel:+79670984898",
+            "pic":"ph.png"
+        },
+        {
+            "id":"03",
+            "tittle":"+7 967 098-48-98",
+            "link":"tel:+79670984898",
+            "pic":"whatsapp.png"
+        },
+        {
+            "id":"04",
+            "tittle":"+7 967 098-48-98",
+            "link":"tel:+79670984898",
+            "pic":"viber.png"
+        },
+        {
+            "id":"05",
+            "tittle":"https://t.me/DmitriyZv22",
+            "link":"https://t.me/DmitriyZv22",
+            "pic":"telegram.png"
+        }
+    ],
+    "partlist":[
+        {
+            "id":"01",
+            "description":"работа номер 1 github: https://github.com/DmitriyZ1/testself ",
+            "url":"https://dmitriyz1.github.io/testself/",
+            "pic":"vp1.png"
+        },
+        {
+            "id":"02",
+            "description":"работа номер 1",
+            "url":"http:\\domen2.ru",
+            "pic":"kr1.png"
+        },
+        {
+            "id":"03",
+            "description":"работа номер 1",
+            "url":"http:\\domen3.ru",
+            "pic":"d1.png"
+        },
+        {
+            "id":"04",
+            "description":"работа номер 1",
+            "url":"http:\\domen4.ru",
+            "pic":"k1.png"
+        }
+    ],
+    "information": "Это информация о сайте"
+}

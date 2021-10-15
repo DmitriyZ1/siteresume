@@ -1,0 +1,64 @@
+.App {
+  min-width: 730px;
+  background-color: black;
+  text-align: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+li{
+  list-style-type: none;
+  
+}
+
+.container{
+  width: 75%;
+  margin: 0 auto;
+  @media(max-width: 1200px){
+    width: 95%;
+  }
+}
+
+.fon1{
+  position: relative;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(10, 29, 37, 0.8);
+}
+
+
+.dark_header_color{
+  background: #486990;
+}
+
+.ligh_header_color{
+  background: #833776;
+}
+
+
+.dark_button_color{
+  background: #000000;
+  color: #fff;
+}
+
+.light_button_color{
+  background: #fff;
+  color: #000000;
+}
+
+
+.dark_line_color{
+  background: #6DCED4;
+}
+
+.light_line_color{
+  background: #bd72b0;
+}
+
+
+
+
+ 
+ 

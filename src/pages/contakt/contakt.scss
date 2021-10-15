@@ -1,0 +1,30 @@
+.cont__body{
+    min-height: 600px;
+    .cont__items{
+
+        .cont__item{
+            display: flex;
+            justify-content: space-between;
+            margin: 50px;
+            background: #fff;
+            width: 60%;
+            height: 70px;
+            border-radius: 15px;
+            position: relative;
+            .cont__item__img{
+                position: relative;
+                left: 40px;
+                top: 3px;
+            }
+            .cont__item__url{
+                position: relative;
+                right: 50px;
+                bottom: 7px;
+                font-size: 24px;
+                font-weight: 200;
+               
+            }
+        }
+    }
+    
+}
